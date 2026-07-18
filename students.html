@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Students | Balaji Coaching Center</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<!-- Sidebar -->
+
+<aside class="sidebar">
+
+<div class="logo">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+<h2>Balaji</h2>
+
+</div>
+
+<ul>
+
+<li>
+
+<a href="dashboard.html">
+
+<i class="fa-solid fa-house"></i>
+
+Dashboard
+
+</a>
+
+</li>
+
+<li class="active">
+
+<a href="students.html">
+
+<i class="fa-solid fa-user-graduate"></i>
+
+Students
+
+</a>
+
+</li>
+
+<li>
+
+<a href="settings.html">
+
+<i class="fa-solid fa-gear"></i>
+
+Settings
+
+</a>
+
+</li>
+
+<li>
+
+<a href="login.html">
+
+<i class="fa-solid fa-right-from-bracket"></i>
+
+Logout
+
+</a>
+
+</li>
+
+</ul>
+
+</aside>
+
+
+<!-- Main -->
+
+<main class="main">
+
+<header class="topbar">
+
+<h2>Student Management</h2>
+
+<button class="add-btn">
+
+<i class="fa-solid fa-plus"></i>
+
+Add Student
+
+</button>
+
+</header>
+
+
+<!-- Search -->
+
+<div class="search-box">
+
+<input
+type="text"
+placeholder="Search Student...">
+
+<button>
+
+<i class="fa-solid fa-search"></i>
+
+</button>
+
+</div>
+
+
+<!-- Student Table -->
+
+<div class="box">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Photo</th>
+
+<th>Name</th>
+
+<th>Class</th>
+
+<th>Attendance</th>
+
+<th>Fees</th>
+
+<th>Marks</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+
+<img
+src="https://i.pravatar.cc/45?img=12"
+class="student-img">
+
+</td>
+
+<td>Rahul Sharma</td>
+
+<td>12th</td>
+
+<td>
+
+<span class="present">
+
+95%
+
+</span>
+
+</td>
+
+<td>
+
+<span class="paid">
+
+Paid
+
+</span>
+
+</td>
+
+<td>92%</td>
+
+<td>
+
+<button class="view-btn">
+
+View
+
+</button>
+
+</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>
+
+<img
+src="https://i.pravatar.cc/45?img=25"
+class="student-img">
+
+</td>
+
+<td>Priya Singh</td>
+
+<td>11th</td>
+
+<td>
+
+90%
+
+</td>
+
+<td>
+
+<span class="pending">
+
+Pending
+
+</span>
+
+</td>
+
+<td>
+
+88%
+
+</td>
+
+<td>
+
+<button class="view-btn">
+
+View
+
+</button>
+
+</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>
+
+<img
+src="https://i.pravatar.cc/45?img=32"
+class="student-img">
+
+</td>
+
+<td>Aman Verma</td>
+
+<td>10th</td>
+
+<td>
+
+93%
+
+</td>
+
+<td>
+
+<span class="paid">
+
+Paid
+
+</span>
+
+</td>
+
+<td>
+
+84%
+
+</td>
+
+<td>
+
+<button class="view-btn">
+
+View
+
+</button>
+
+</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>
+
+<img
+src="https://i.pravatar.cc/45?img=16"
+class="student-img">
+
+</td>
+
+<td>Neha Yadav</td>
+
+<td>9th</td>
+
+<td>
+
+97%
+
+</td>
+
+<td>
+
+<span class="pending">
+
+Pending
+
+</span>
+
+</td>
+
+<td>
+
+91%
+
+</td>
+
+<td>
+
+<button class="view-btn">
+
+View
+
+</button>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+
+
+<!-- Student Overview -->
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-users"></i>
+
+<h3>1250</h3>
+
+<p>Total Students</p>
+
+</div>
+
+
+<div class="card">
+
+<i class="fa-solid fa-user-check"></i>
+
+<h3>1185</h3>
+
+<p>Present Today</p>
+
+</div>
+
+
+<div class="card">
+
+<i class="fa-solid fa-wallet"></i>
+
+<h3>48</h3>
+
+<p>Pending Fees</p>
+
+</div>
+
+
+<div class="card">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>91%</h3>
+
+<p>Average Result</p>
+
+</div>
+
+</div>
+
+
+
+<!-- Student Details -->
+
+<div class="box">
+
+<h3>Selected Student</h3>
+
+<div class="student-profile">
+
+<img
+src="https://i.pravatar.cc/120?img=12">
+
+<div>
+
+<h2>Rahul Sharma</h2>
+
+<p><strong>Class:</strong> 12th</p>
+
+<p><strong>Father:</strong> Ramesh Sharma</p>
+
+<p><strong>Mobile:</strong> 9876543210</p>
+
+<p><strong>Attendance:</strong> 95%</p>
+
+<p><strong>Fee Status:</strong> Paid</p>
+
+<p><strong>Performance:</strong> Excellent</p>
+
+</div>
+
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
